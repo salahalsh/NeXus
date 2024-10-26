@@ -35,7 +35,7 @@ License
 NeXus is released under the Mozilla Public License Version 2.0 (MPL 2.0).
 
 Contact and Support
-For any questions, feedback, or support regarding the NeXus platform, please contact the development team at nexus-salah_alsh@outlook.com
+For any questions, feedback, or support regarding the NeXus platform, please contact the development team at salah_alsh@outlook.com
 
 Citing NeXus
 If you use the NeXus platform in your research, please cite the following publication:
