@@ -1,0 +1,50 @@
+Prerequisites
+Before installing the NeXus platform, ensure that you have the following software and dependencies installed on your system:
+
+    Python 3.7 or later
+    pip package installer
+
+The NeXus platform requires the following Python packages:
+
+    pandas
+    numpy
+    networkx
+    matplotlib
+    seaborn
+    gseapy
+    statsmodels
+    os
+    sys
+    warnings
+    traceback
+
+Additionally, the following optional dependencies are used conditionally based on their availability:
+
+    community.community_louvain (for Louvain community detection)
+    lucide-react (for Lucide icons in React visualizations)
+    recharts (for advanced data visualizations in React components)
+    shadcn/ui (for Shadcn UI components in React visualizations)
+
+Installation
+    Create a virtual environment (recommended):
+
+Open a terminal or command prompt.
+    Create a new virtual environment using your preferred method (e.g., python -m venv env on Windows, python3 -m venv env on macOS/Linux).
+
+Activate the virtual environment:
+    On Windows: env\Scripts\activate
+    On macOS/Linux: source env/bin/activate
+
+Install the NeXus Script:
+
+Download the NeXus tool source code from the GitHub repository.
+Navigate to the project directory in your terminal.
+Install the required dependencies using pip:
+
+      $ pip install -r requirements.txt
+
+Run the following command to ensure that the NeXus platform is installed correctly:
+
+      $ python nexus_v1.py
+
+The script should start executing and guide you through the analysis process.
