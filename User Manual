@@ -1,0 +1,92 @@
+Getting Started
+
+Prepare your input data:
+
+The NeXus platform requires a CSV file as the input data source.
+
+The file must contain a mandatory 'genes' column, which represents the gene information associated with the network pharmacology analysis.
+
+Optionally, the file may also contain 'compounds_list' and 'plants_list' columns, which provide additional context for the relationships between genes, compounds, and plants.
+Ensure that your input data is clean and formatted correctly.
+
+CSV File Format
+The input CSV file for the NeXus platform should have the following format:
+compounds_list; plants_list; genes
+
+The 'genes' column is mandatory and must contain the gene information associated with the network pharmacology analysis.
+The 'compounds_list' and 'plants_list' columns are optional, but including them will provide additional context and enable more comprehensive analysis.
+Each row in the CSV file represents a relationship between a compound, a plant, and one or more genes.
+If a cell in the 'compounds_list' or 'plants_list' column is empty, it means that the corresponding gene is not associated with any compound or plant.
+Similarly, if a gene is not associated with any compounds or plants, it will have empty cells in the 'compounds_list' and 'plants_list' columns.
+
+
+
+Launch the NeXus platform:
+
+  Open a terminal or command prompt and navigate to the NeXus platform directory.
+  Run the following command to start the analysis:
+
+      $ python nexus_v1.py
+
+Provide the input file path:
+
+    When prompted, enter the path to your input CSV file.
+    If you don't provide a path, the platform will use a default file named 'input.csv' located in the same directory.
+
+Follow the analysis workflow:
+
+    The NeXus platform will guide you through the various stages of the analysis, including network construction, metrics calculation, enrichment analysis, and visualization.
+    The platform will provide progress updates and instructions throughout the process.
+
+
+
+
+Key Features
+
+Automated Network Construction:
+
+NeXus automatically constructs a network graph from the input data, representing the relationships between genes, compounds, and plants.
+The platform handles the creation of nodes and edges based on the available data columns.
+
+
+Network Metrics Calculation:
+
+NeXus calculates a comprehensive suite of network metrics, including basic, centrality, and community-related measures.
+These metrics provide insights into the structure and dynamics of the biological network.
+
+
+Enrichment Analysis:
+
+The platform integrates advanced enrichment analysis capabilities, leveraging databases of biological pathways and gene ontologies.
+NeXus identifies the significant associations between the network elements and established functional processes.
+
+Visualization and Reporting:
+
+NeXus generates a suite of publication-quality visualizations, including network plots, centrality maps, and enrichment analysis figures.
+The platform consolidates the analysis findings into a comprehensive Markdown-formatted report, facilitating the integration of the results into scientific publications and presentations.
+
+
+
+
+Advanced Features
+
+Grouped Enrichment Analysis:
+
+For datasets with 'compounds_list' and 'plants_list' columns, NeXus can perform enrichment analysis separately for each plant and compound.
+This feature enables researchers to identify the specific biological relevance of individual network elements.
+
+
+Batch Processing:
+
+The platform supports the ability to analyze multiple input files in a batch, streamlining the workflow for researchers with large datasets.
+
+
+Troubleshooting and Support
+If you encounter any issues or have questions about using the NeXus platform, please refer to the following resources:
+
+Documentation: Review the Installation Guide and User Manual for detailed instructions and guidance.
+
+GitHub Repository: Check the project's GitHub repository for the latest updates, bug fixes, and community discussions.
+
+Contact the Development Team: For any specific questions or support requests, you can reach out to the NeXus development team at salah_alsh@outlook.com.
+
