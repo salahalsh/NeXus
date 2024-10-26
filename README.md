@@ -3,7 +3,7 @@
 Introduction
 Network pharmacology and enrichment analysis have emerged as powerful frameworks for understanding complex biological systems and accelerating the drug discovery process. However, the implementation of these approaches has been hindered by the limitations of existing computational tools and platforms, which often lack comprehensive functionality, efficient data processing, and effective visualization capabilities.
 
-The NeXus platform, presented in this repository, is an innovative solution that addresses these shortcomings. By harnessing the power of python language, NeXus streamlines the entire network pharmacology and enrichment analysis workflow, empowering researchers and drug developers to navigate the intricate landscape of biological networks more efficiently and effectively.
+The NeXus platform, presented in this repository, is an innovative solution that addresses these shortcomings. By harnessing the power of Python language, NeXus streamlines the entire network pharmacology and enrichment analysis workflow, empowering researchers and drug developers to navigate the intricate landscape of biological networks more efficiently and effectively.
 Key Features
 
 
@@ -13,7 +13,7 @@ Automated Network Construction:
 NeXus automatically constructs complex biological networks from diverse data sources, including information on genes, compounds, and their interactions.
 
 Advanced Network Metrics: 
-The platform calculates a comprehensive suite of network metrics, including basic, centrality, and community-related measures, to provide deep insights into the structure and dynamics of the biological networks.
+The platform calculates a comprehensive suite of network metrics, including basic, centrality, and community-related measures, to provide deep insights into the structure and dynamics of biological networks.
 
 Enrichment Analysis: 
 NeXus integrates advanced enrichment analysis capabilities, leveraging extensive databases of biological pathways and gene ontologies to uncover the significant associations between network elements and established functional processes.
